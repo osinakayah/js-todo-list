@@ -236,3 +236,5 @@ const UIModule = function(){
     removeProjectActive
   }
 }();
+UIModule.init()
+EventModule.attachEvents()
