@@ -76,6 +76,87 @@
       </div>
     </div>
   </div>
+  <div class="container">
+    <div class="row">
+        <div class="col-offset-lg-4 col-lg-4 col-offset-md-4 col-md-4 col-offset-sm-4 col-sm-4  col-12">
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+
+                    <div class="form_container">
+                        <p class="title" style="text-align: center">Create Project <br/> </p>
+
+                        <form class="sign_up_form">
+                            <div class="row">
+                                <div class="col-12 form-group">
+                                    <label>Project Name</label>
+                                    <input type="text" id="new-project-name">
+                                </div>
+
+                                <div class="col-12 form-group">
+                                    <button type="button" id="create-project-button">Create Project</button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-offset-lg-4 col-lg-4 col-offset-md-4 col-md-4 col-offset-sm-4 col-sm-4  col-12">
+            <div id="task-myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+
+                    <div class="form_container">
+                        <p class="title" style="text-align: center"> Task <br/> </p>
+
+                        <form class="sign_up_form">
+                            <input type="hidden" value="-1" id="project_task_relation_id">
+                            <input type="hidden" value="-1" id="existing_task_id">
+                            <div class="row">
+                                <div class="col-12 form-group">
+                                    <label>Task Name</label>
+                                    <input type="text" id="new-task-name">
+                                </div>
+
+                                <div class="col-12 form-group">
+                                    <label>Description</label>
+                                    <input type="text" id="new-task-desc">
+                                </div>
+
+                                <div class="col-12 form-group">
+                                    <label>Due Date</label>
+                                    <input type="date" id="new-task-due-date">
+                                </div>
+
+                                <div class="col-12 form-group">
+                                    <label>Priority</label>
+                                    <select id="new-task-priority" style="width: 100%">
+                                        <option>Least Important</option>
+                                        <option>Important</option>
+                                        <option>Very Important</option>
+                                    </select>
+                                </div>
+
+                                <div class="col-12 form-group">
+                                    <button type="button" id="create-task-button">Save Task</button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+  </div>
     <script src="js/main.js"></script>
   </body>
 </html>
