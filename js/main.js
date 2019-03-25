@@ -207,11 +207,11 @@ const EventModule = function () {
 }();
 const UIModule = function(){
   const makeProjectActive = (projectId) => {
-    document.querySelector(#projects-ul [data-project-id="${projectId}"]).classList.add("active")
+    document.querySelector(`#projects-ul [data-project-id="${projectId}"]`).classList.add("active")
     document.querySelector('#project_task_relation_id').value = projectId
   }
   const removeProjectActive = (projectId) => {
-    document.querySelector(#projects-ul [data-project-id="${projectId}"]).classList.remove("active")
+    document.querySelector(`#projects-ul [data-project-id="${projectId}"]`).classList.remove("active")
   }
   const renderProjectList = (projects) => {
     const projectListTemplate = projects.reduce((projectRows, project, projectIndex) => {
