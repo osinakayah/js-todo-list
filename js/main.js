@@ -74,10 +74,16 @@ const EventModule = function () {
     }
   }
   const openModalToCreateTask = () => {
+
     const modal = document.getElementById('task-myModal');
     const btn = document.getElementById("taskmyBtn");
     const span = document.getElementsByClassName("close")[1];
     btn.onclick = function() {
+      const projectId = document.getElementById('project_task_relation_id').value
+      if (projectId < 0 ) {
+        alert('Please select a project')
+        return
+      }
       modal.style.display = "block";
     }
     span.onclick = function() {
