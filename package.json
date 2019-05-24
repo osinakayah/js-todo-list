@@ -1,0 +1,17 @@
+{
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2"
+  },
+  "name": "js-todo-list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/osinakayah/js-todo-list.git",
+  "author": "Ifeanyi Osinakayah Joseph <ifeanyiosinakayah15@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  }
+}
