@@ -15,7 +15,7 @@ Current version features:
 
 ## Table of Contents
 
-- [bookstore-react-redux-app](#bookstore-react-redux-app)
+- [js_todo_list](#js_todo_list)
   - [Table of Contents](#table-of-contents)
   - [Install](#install)
   - [Usage](#usage)
