@@ -1,6 +1,6 @@
 # Todo-list
 
-> Bookstore CMS App built using Vanilla Javascript.
+> Todo Application built using Vanilla Javascript.
 
 Current version features:
 
