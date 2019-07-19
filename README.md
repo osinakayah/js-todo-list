@@ -6,7 +6,7 @@
 - Plain Javascript
 - CSS
 
-Current version features:
+## Current version features:
 
 - Comes with a default project
 - Create projects
@@ -16,14 +16,6 @@ Current version features:
 - Delete a Task
 - Caches Entire projects and their task
 
-
-## Table of Contents
-
-- [js_todo_list](#js_todo_list)
-  - [Table of Contents](#table-of-contents)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Maintainers](#maintainers)
   
    ## Install
   
