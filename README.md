@@ -1,6 +1,10 @@
-# Todo-list
+# My Daily Todo List
 
-> Todo Application built using Vanilla Javascript.
+> My daily todo list is a web application built to help me organize my task for the day and also keep track of which project or goal i am trying to achieve by each task.
+
+## Tech Stacks
+- Plain Javascript
+- CSS
 
 Current version features:
 
