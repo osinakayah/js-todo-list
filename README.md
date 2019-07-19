@@ -7,7 +7,6 @@
 - CSS
 
 ## Current version features:
-
 - Comes with a default project
 - Create projects
 - Create Task under a project
@@ -17,19 +16,15 @@
 - Caches Entire projects and their task
 
   
-   ## Install
-  
-  Follow these steps:
-    - clone this repo
-    - `cd js_todo_list`
-    - `yarn install` or `npm install`
+## Install
+- Clone this repo
+- `cd js_todo_list`
+- `yarn install` or `npm install`
     
     
-  ## Usage
-  
-  Start run the index.html page in the root directory in a browser
+ ## Usage
+ Start run the index.html page in the root directory in a browser
   
 
 ## Maintainers
-
-  [Osinakayah](https://github.com/osinakayah) and [Sanelca](https://github.com/sanelca)
+[Osinakayah](https://github.com/osinakayah) and [Sanelca](https://github.com/sanelca)
