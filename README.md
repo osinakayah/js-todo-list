@@ -15,16 +15,16 @@
 - Delete a Task
 - Caches Entire projects and their task
 
-  
+
 ## Install
 - Clone this repo
 - `cd js_todo_list`
 - `yarn install` or `npm install`
-    
-    
+
+
  ## Usage
- Start run the index.html page in the root directory in a browser
-  
+ Now move to root folder of the project and open index.html file in browser.
+
 
 ## Maintainers
 [Osinakayah](https://github.com/osinakayah) and [Sanelca](https://github.com/sanelca)
